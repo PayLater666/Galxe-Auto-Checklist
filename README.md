@@ -15,16 +15,16 @@ Skrip bookmarklet ini dirancang untuk mempermudah pengguna dalam menyelesaikan q
 
 ## 🚀 Contoh Penggunaan
 **Langkah-langkah untuk menggunakan script:**
-1. Aktifkan Bookmark Bar di browser Anda (Shortcut: `CTRL+SHIFT+B`)
-2. Klik kanan pada Bookmark Bar → pilih **Add Page** / **Tambahkan Halaman**
-3. Isi nama sesuai keinginan, lalu pada kolom [URL](https://raw.githubusercontent.com/PayLater666/Galxe-Auto-Checklist/refs/heads/main/code){:target="_blank"} tempelkan kode bookmarklet, klik **Save**
-4. Kunjungi halaman quest Galxe apapun
-5. Klik bookmark yang sudah Anda buat
-6. Script akan otomatis berjalan:
-   - Klik elemen checklist
-   - Buka link yang relevan
-   - Tampilkan hasil dalam popup
-7. Tunggu beberapa detik, lalu **refresh halaman**
+1. Aktifkan Bookmark Bar di browser Anda (Shortcut: `CTRL+SHIFT+B`)  
+2. Klik kanan pada Bookmark Bar → pilih **Add Page** / **Tambahkan Halaman**  
+3. Isi nama sesuai keinginan, lalu pada kolom [URL](https://raw.githubusercontent.com/PayLater666/Galxe-Auto-Checklist/refs/heads/main/code) tempelkan kode bookmarklet, klik **Save**  
+4. Kunjungi halaman quest Galxe apapun  
+5. Klik bookmark yang sudah Anda buat  
+6. Script akan otomatis berjalan:  
+   - Klik elemen checklist  
+   - Buka link yang relevan  
+   - Tampilkan hasil dalam popup  
+7. Tunggu beberapa detik, lalu **refresh halaman**  
 8. DONE! 😊
 
 ## 🛠️ Task yang Didukung
@@ -34,8 +34,8 @@ Hanya bekerja untuk task berikut:
 - Visit Pages  
 
 ## ⚠️ Perhatian
-- Pastikan Anda sudah **login** di Galxe sebelum menjalankan script.
-- Jangan gunakan script ini secara berlebihan agar tidak dicurigai sebagai aktivitas mencurigakan oleh sistem.
+- Pastikan Anda sudah **login** di Galxe sebelum menjalankan script.  
+- Jangan gunakan script ini secara berlebihan agar tidak dicurigai sebagai aktivitas mencurigakan oleh sistem.  
 - Penulis tidak bertanggung jawab atas konsekuensi yang mungkin timbul akibat penyalahgunaan script ini.
 
 ## 🙏 Credit
