@@ -1,4 +1,3 @@
-
 # Galxe Auto Checklist - Auto Clicker & Link Opener Script for Galxe Quests
 
 ## 📌 Deskripsi  
@@ -18,7 +17,7 @@ Skrip bookmarklet ini dirancang untuk mempermudah pengguna dalam menyelesaikan q
 **Langkah-langkah untuk menggunakan script:**
 1. Aktifkan Bookmark Bar di browser Anda (Shortcut: `CTRL+SHIFT+B`)
 2. Klik kanan pada Bookmark Bar → pilih **Add Page** / **Tambahkan Halaman**
-3. Isi nama sesuai keinginan, lalu pada kolom URL tempelkan kode bookmarklet, klik **Save**
+3. Isi nama sesuai keinginan, lalu pada kolom [URL](https://raw.githubusercontent.com/PayLater666/Galxe-Auto-Checklist/refs/heads/main/code){:target="_blank"} tempelkan kode bookmarklet, klik **Save**
 4. Kunjungi halaman quest Galxe apapun
 5. Klik bookmark yang sudah Anda buat
 6. Script akan otomatis berjalan:
