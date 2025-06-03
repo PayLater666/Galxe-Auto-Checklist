@@ -1,0 +1,55 @@
+javascript:(function(){
+  const elements=document.querySelectorAll('div.cursor-pointer');
+  let clickedCount=0;
+  let urls=[];
+  elements.forEach(el=>{
+    if(el.hasAttribute('aria-controls')&&el.hasAttribute('aria-expanded')&&el.getAttribute('data-state')==='closed'){
+      el.click();
+      clickedCount++;
+    }
+  });
+  setTimeout(()=>{
+    const allLinks=[];
+    document.querySelectorAll('div.cursor-pointer').forEach(el=>{
+      el.querySelectorAll('a[href]').forEach(link=>{
+        const url=link.href;
+        if(url&&!urls.includes(url)){
+          urls.push(url);
+          allLinks.push(url);
+        }
+      });
+    });
+    let i=0;
+    function openNext(){
+      if(i<allLinks.length){
+        window.open(allLinks[i],'_blank');
+        i++;
+        setTimeout(openNext,500);
+      }else{
+        const popup=document.createElement('div');
+        popup.style.position='fixed';
+        popup.style.top='20px';
+        popup.style.right='20px';
+        popup.style.padding='15px';
+        popup.style.background='#222';
+        popup.style.color='white';
+        popup.style.fontSize='14px';
+        popup.style.borderRadius='8px';
+        popup.style.boxShadow='0 0 10px rgba(0,0,0,0.5)';
+        popup.style.zIndex=999999;
+        popup.innerHTML=
+          `<strong>🎉 Galxe Auto Checklist Sukses!</strong><br>`+
+          `✅ Status: Semua elemen berhasil diklik<br>`+
+          `🔘 Jumlah elemen diklik: ${clickedCount}<br>`+
+          `🔗 Jumlah link dibuka: ${allLinks.length}<br><br>`+
+          `💡 Tip: Cek checklist atau klik tombol klaim manual jika tersedia.<br><br>`+
+          `📣 Credit: <a href="https://t.me/Yurayle" target="_blank" style="color:#4FC3F7; text-decoration:underline;">t.me/Yurayle</a><br>`+
+          `🫶 Thank me later!<br><br>`+
+          `<button id="closePopupBtn" style="padding:5px 10px; cursor:pointer; border:none; border-radius:4px; background:#4FC3F7; color:#222;">Close</button>`;
+        document.body.appendChild(popup);
+        document.getElementById('closePopupBtn').onclick=()=>{popup.remove();};
+      }
+    }
+    openNext();
+  },1000);
+})();
